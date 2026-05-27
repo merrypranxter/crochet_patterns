@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Crochet Ripple Chevron Generator</title>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+</head>
+<body>
+<script>
+function setup() { createCanvas(1000, 700); noLoop(); }
+function draw() {
+  background('#fff9ee');
+  const palette = ['#ff3f8e', '#fff95d', '#34e89e', '#00bfff', '#8a5cff'];
+  const rowH = 34;
+  for (let y = 30; y < height - 30; y += rowH) {
+    const col = palette[floor(y / rowH) % palette.length];
+    drawRippleRow(y, col);
+  }
+}
+function drawRippleRow(y, col) {
+  stroke(20, 70);
+  fill(col);
+  for (let x = 20; x < width - 20; x += 22) {
+    const wave = sin(x * 0.035) * 28;
+    drawStitch(x, y + wave, col);
+  }
+}
+function drawStitch(x, y, col) {
+  push();
+  translate(x, y);
+  rotate(sin(x * 0.01) * 0.15);
+  fill(col);
+  stroke(40, 80);
+  ellipse(-4, 0, 10, 26);
+  ellipse(4, 0, 10, 26);
+  pop();
+}
+</script>
+</body>
+</html>

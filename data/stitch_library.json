@@ -1,0 +1,219 @@
+[
+  {
+    "id": "chain_stitch",
+    "name": "Chain Stitch",
+    "definition": "The foundation loop. It creates linear structure, starting edges, spaces, rings, and lace gaps.",
+    "visual_traits": [
+      "braided cord",
+      "open spaces",
+      "foundation lines"
+    ],
+    "uses": [
+      "starting rows",
+      "chain spaces",
+      "drawstrings",
+      "lace bridges"
+    ]
+  },
+  {
+    "id": "slip_stitch",
+    "name": "Slip Stitch",
+    "definition": "A low-height connector stitch that joins, travels, or creates dense surface texture.",
+    "visual_traits": [
+      "flat join",
+      "low ridge",
+      "almost invisible connection"
+    ],
+    "uses": [
+      "joining rounds",
+      "surface crochet",
+      "edging",
+      "seaming"
+    ]
+  },
+  {
+    "id": "single_crochet",
+    "name": "Single Crochet",
+    "definition": "A short dense stitch with firm fabric and compact texture.",
+    "visual_traits": [
+      "tight knots",
+      "small square-ish units",
+      "dense surface"
+    ],
+    "uses": [
+      "amigurumi",
+      "bags",
+      "tapestry crochet",
+      "firm fabric"
+    ]
+  },
+  {
+    "id": "half_double_crochet",
+    "name": "Half Double Crochet",
+    "definition": "A medium-height stitch with a slightly ridged, flexible fabric.",
+    "visual_traits": [
+      "soft horizontal bar",
+      "medium height",
+      "subtle rib"
+    ],
+    "uses": [
+      "blankets",
+      "garments",
+      "fast textured fields"
+    ]
+  },
+  {
+    "id": "double_crochet",
+    "name": "Double Crochet",
+    "definition": "A tall common stitch used for fast growth, lace, shells, and granny clusters.",
+    "visual_traits": [
+      "vertical posts",
+      "larger holes",
+      "open drape"
+    ],
+    "uses": [
+      "granny squares",
+      "filet crochet",
+      "shells",
+      "blankets"
+    ]
+  },
+  {
+    "id": "treble_crochet",
+    "name": "Treble Crochet",
+    "definition": "A very tall stitch that creates elongated posts and open fabric.",
+    "visual_traits": [
+      "long columns",
+      "large gaps",
+      "lace-like height"
+    ],
+    "uses": [
+      "lace",
+      "doilies",
+      "dramatic openwork"
+    ]
+  },
+  {
+    "id": "increases_decreases",
+    "name": "Increases And Decreases",
+    "definition": "Shape operations that add or remove stitch count.",
+    "visual_traits": [
+      "expansion",
+      "cupping",
+      "tapering",
+      "radial shaping"
+    ],
+    "uses": [
+      "circles",
+      "amigurumi",
+      "garments",
+      "hyperbolic forms"
+    ]
+  },
+  {
+    "id": "front_loop_back_loop",
+    "name": "Front Loop Back Loop",
+    "definition": "Loop-target variations that change ridge direction and fabric texture.",
+    "visual_traits": [
+      "surface ridges",
+      "ribbing",
+      "hinge folds"
+    ],
+    "uses": [
+      "ribbed cuffs",
+      "textural stripes",
+      "fold lines"
+    ]
+  },
+  {
+    "id": "post_stitches",
+    "name": "Post Stitches",
+    "definition": "Stitches worked around the body of a previous stitch rather than into its top loop.",
+    "visual_traits": [
+      "raised cables",
+      "shadowed relief",
+      "woven-looking ribs"
+    ],
+    "uses": [
+      "cables",
+      "waffle texture",
+      "basketweave effects"
+    ]
+  },
+  {
+    "id": "shell_stitches",
+    "name": "Shell Stitches",
+    "definition": "Multiple tall stitches worked into the same stitch or space to create fan shapes.",
+    "visual_traits": [
+      "fans",
+      "scallops",
+      "petal clusters"
+    ],
+    "uses": [
+      "lace borders",
+      "blankets",
+      "decorative repeats"
+    ]
+  },
+  {
+    "id": "puff_popcorn_bobble",
+    "name": "Puff Popcorn Bobble",
+    "definition": "Dimensional cluster stitches that create raised bumps and tactile texture.",
+    "visual_traits": [
+      "bubbles",
+      "nubs",
+      "soft relief"
+    ],
+    "uses": [
+      "texture fields",
+      "berries",
+      "polka-dot fabric"
+    ]
+  },
+  {
+    "id": "cluster_stitches",
+    "name": "Cluster Stitches",
+    "definition": "Partially completed stitches joined at the top or base.",
+    "visual_traits": [
+      "bundled posts",
+      "petal shapes",
+      "compressed volume"
+    ],
+    "uses": [
+      "lace motifs",
+      "flowers",
+      "textural repeats"
+    ]
+  },
+  {
+    "id": "picot",
+    "name": "Picot",
+    "definition": "Small looped point made from chains, often used as a decorative edge.",
+    "visual_traits": [
+      "tiny loops",
+      "teeth",
+      "lace points"
+    ],
+    "uses": [
+      "edging",
+      "doilies",
+      "snowflakes"
+    ]
+  },
+  {
+    "id": "filet_blocks",
+    "name": "Filet Blocks",
+    "definition": "Open and filled mesh blocks used to make images, letters, and lace diagrams.",
+    "visual_traits": [
+      "square windows",
+      "filled blocks",
+      "pixel-like lace"
+    ],
+    "uses": [
+      "filet charts",
+      "curtains",
+      "monograms",
+      "graphic lace"
+    ]
+  }
+]

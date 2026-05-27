@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Granny Square Chart Generator</title>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+</head>
+<body>
+<script>
+function setup() {
+  createCanvas(900, 900);
+  noLoop();
+}
+
+function draw() {
+  background(250);
+  translate(width/2, height/2);
+  const colors = ['#ff3f8e', '#fff95d', '#34e89e', '#00bfff', '#8a5cff'];
+  for (let r = 5; r >= 1; r--) drawRound(r, colors[r % colors.length]);
+}
+
+function drawRound(r, col) {
+  const size = r * 72;
+  stroke(30);
+  strokeWeight(2);
+  fill(col);
+  rectMode(CENTER);
+  noFill();
+  rect(0, 0, size * 2, size * 2, 18);
+  drawClustersOnSquare(size, col);
+}
+
+function drawClustersOnSquare(size, col) {
+  const steps = 5;
+  for (let side = 0; side < 4; side++) {
+    for (let i = 0; i <= steps; i++) {
+      const t = map(i, 0, steps, -size, size);
+      let x, y;
+      if (side === 0) [x, y] = [t, -size];
+      if (side === 1) [x, y] = [size, t];
+      if (side === 2) [x, y] = [-t, size];
+      if (side === 3) [x, y] = [-size, -t];
+      drawCluster(x, y, side * HALF_PI, col);
+    }
+  }
+}
+
+function drawCluster(x, y, rot, col) {
+  push();
+  translate(x, y);
+  rotate(rot);
+  stroke(20);
+  fill(col);
+  for (let i = -1; i <= 1; i++) {
+    ellipse(i * 10, 0, 10, 34);
+  }
+  pop();
+}
+</script>
+</body>
+</html>

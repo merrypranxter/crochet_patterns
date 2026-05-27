@@ -1,0 +1,32 @@
+{
+  "acid_candy": [
+    "#ff3f8e",
+    "#fff95d",
+    "#34e89e",
+    "#00bfff",
+    "#8a5cff"
+  ],
+  "indigo_cotton": [
+    "#0b1d3a",
+    "#173f7a",
+    "#f4f0df"
+  ],
+  "vintage_afghan": [
+    "#8b3a3a",
+    "#e7b65c",
+    "#5a7f62",
+    "#f3e4c6"
+  ],
+  "blacklight_doily": [
+    "#05030a",
+    "#ff00cc",
+    "#00ffee",
+    "#fff600"
+  ],
+  "natural_fiber": [
+    "#f7efe0",
+    "#c6aa82",
+    "#8d6e4f",
+    "#4a3828"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "core_visuals": [
+    "visible hook-built loops",
+    "chain spaces",
+    "stitch posts",
+    "top loops",
+    "yarn twist",
+    "fiber fuzz",
+    "stitch-local shadows"
+  ],
+  "families": [
+    "Granny Square",
+    "Ripple Chevron",
+    "Shell Lace",
+    "Filet Crochet",
+    "Doily Mandala",
+    "Motif Tiles",
+    "Amigurumi Forms",
+    "Tapestry Crochet",
+    "Mosaic Crochet",
+    "Broomstick Lace",
+    "Hairpin Lace",
+    "Freeform Scrumble",
+    "Hyperbolic Crochet",
+    "Irish Crochet"
+  ],
+  "anti_drift": [
+    "not knitting",
+    "not weaving",
+    "not printed lace",
+    "not generic yarn texture"
+  ],
+  "math_modules": [
+    "radial increases",
+    "hyperbolic growth",
+    "motif tessellation",
+    "cellular automata rows",
+    "filet binary grid"
+  ]
+}

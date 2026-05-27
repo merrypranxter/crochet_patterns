@@ -1,0 +1,210 @@
+[
+  {
+    "id": "granny_square",
+    "name": "Granny Square",
+    "definition": "A modular square motif usually built in rounds from clusters and chain-space corners.",
+    "visual_traits": [
+      "radial square growth",
+      "corner chain spaces",
+      "cluster groups",
+      "color rounds"
+    ],
+    "uses": [
+      "motif blankets",
+      "tile systems",
+      "shader grids",
+      "retro textile prompts"
+    ]
+  },
+  {
+    "id": "ripple_chevron",
+    "name": "Ripple Chevron",
+    "definition": "A row-based wave pattern made by increases and decreases.",
+    "visual_traits": [
+      "zigzag rows",
+      "peaks and valleys",
+      "color bands"
+    ],
+    "uses": [
+      "blankets",
+      "striped textile generation",
+      "wave math"
+    ]
+  },
+  {
+    "id": "shell_lace",
+    "name": "Shell Lace",
+    "definition": "A lace family built from repeated fan-shaped shell clusters.",
+    "visual_traits": [
+      "scallops",
+      "arched repeats",
+      "open gaps"
+    ],
+    "uses": [
+      "borders",
+      "feminine lace textures",
+      "mandala edges"
+    ]
+  },
+  {
+    "id": "filet_crochet",
+    "name": "Filet Crochet",
+    "definition": "A grid-based open/filled mesh system that behaves like pixel art made of holes.",
+    "visual_traits": [
+      "mesh squares",
+      "silhouette images",
+      "letterforms"
+    ],
+    "uses": [
+      "charts",
+      "monograms",
+      "image-to-crochet translation"
+    ]
+  },
+  {
+    "id": "doily_mandala",
+    "name": "Doily Mandala",
+    "definition": "A radial lace structure with increasing rounds and ornamental symmetry.",
+    "visual_traits": [
+      "radial spokes",
+      "picot edges",
+      "concentric rings"
+    ],
+    "uses": [
+      "mandalas",
+      "sacred textile motifs",
+      "lace shader forms"
+    ]
+  },
+  {
+    "id": "motif_tiles",
+    "name": "Motif Tiles",
+    "definition": "Small repeatable crochet units joined into larger surfaces.",
+    "visual_traits": [
+      "repeat units",
+      "joins",
+      "tile seams"
+    ],
+    "uses": [
+      "blankets",
+      "tessellations",
+      "modular prompt systems"
+    ]
+  },
+  {
+    "id": "amigurumi_forms",
+    "name": "Amigurumi Forms",
+    "definition": "Crocheted sculptural objects built from dense spiral rounds.",
+    "visual_traits": [
+      "single crochet skin",
+      "spiral rounds",
+      "stuffed volume"
+    ],
+    "uses": [
+      "characters",
+      "organic blobs",
+      "creature forms"
+    ]
+  },
+  {
+    "id": "tapestry_crochet",
+    "name": "Tapestry Crochet",
+    "definition": "Dense colorwork where unused yarn is carried inside stitches.",
+    "visual_traits": [
+      "pixel-like color blocks",
+      "firm fabric",
+      "graphic motifs"
+    ],
+    "uses": [
+      "bags",
+      "icons",
+      "geometric textile patterns"
+    ]
+  },
+  {
+    "id": "mosaic_crochet",
+    "name": "Mosaic Crochet",
+    "definition": "Colorwork made with rows and dropped stitches that create graphic patterns.",
+    "visual_traits": [
+      "stepped geometry",
+      "overlay bars",
+      "high contrast"
+    ],
+    "uses": [
+      "decorative blankets",
+      "mathy repeat systems"
+    ]
+  },
+  {
+    "id": "broomstick_lace",
+    "name": "Broomstick Lace",
+    "definition": "Large loop lace formed over a rod and grouped into clusters.",
+    "visual_traits": [
+      "long loop bundles",
+      "open airy texture",
+      "vertical loop drama"
+    ],
+    "uses": [
+      "scarves",
+      "lace panels",
+      "shader loop fields"
+    ]
+  },
+  {
+    "id": "hairpin_lace",
+    "name": "Hairpin Lace",
+    "definition": "Looped strips made on a fork-like loom and joined together.",
+    "visual_traits": [
+      "long side loops",
+      "braided centers",
+      "strip construction"
+    ],
+    "uses": [
+      "openwork panels",
+      "looped border systems"
+    ]
+  },
+  {
+    "id": "freeform_scrumble",
+    "name": "Freeform Scrumble",
+    "definition": "Improvisational crochet pieces combining stitches, motifs, colors, and textures.",
+    "visual_traits": [
+      "irregular growth",
+      "mixed stitches",
+      "organic patches"
+    ],
+    "uses": [
+      "maximalist textile prompts",
+      "creature/fungal fabric logic"
+    ]
+  },
+  {
+    "id": "hyperbolic_crochet",
+    "name": "Hyperbolic Crochet",
+    "definition": "A mathematical crochet surface created by frequent increases.",
+    "visual_traits": [
+      "ruffled edges",
+      "coral growth",
+      "exponential perimeter"
+    ],
+    "uses": [
+      "math art",
+      "coral forms",
+      "non-Euclidean textile surfaces"
+    ]
+  },
+  {
+    "id": "irish_crochet",
+    "name": "Irish Crochet",
+    "definition": "Motifs such as flowers and leaves joined by mesh grounds.",
+    "visual_traits": [
+      "raised motifs",
+      "netted background",
+      "botanical lace"
+    ],
+    "uses": [
+      "luxury lace",
+      "floral surface systems"
+    ]
+  }
+]

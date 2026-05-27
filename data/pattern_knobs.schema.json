@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Crochet Pattern Knobs",
+  "type": "object",
+  "properties": {
+    "patternFamily": {
+      "type": "string"
+    },
+    "stitchScale": {
+      "type": "number",
+      "minimum": 1,
+      "maximum": 128
+    },
+    "rowCount": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 500
+    },
+    "roundCount": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 200
+    },
+    "yarnFuzz": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "reliefDepth": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "tensionJitter": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    },
+    "palette": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
