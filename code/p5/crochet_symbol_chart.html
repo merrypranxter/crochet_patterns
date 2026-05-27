@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<title>Crochet Symbol Chart</title>
+<script src="https://cdn.jsdelivr.net/npm/p5@1.9.0/lib/p5.min.js"></script>
+</head>
+<body>
+<script>
+const chart = [
+  ['ch','ch','ch','ch','ch','ch','ch'],
+  ['dc','ch','dc','ch','dc','ch','dc'],
+  ['sc','sc','sc','sc','sc','sc','sc'],
+  ['dc','dc','ch','shell','ch','dc','dc'],
+  ['ch','ch','ch','ch','ch','ch','ch']
+];
+function setup(){ createCanvas(700, 500); noLoop(); }
+function draw(){ background(255); translate(80,80); drawChart(chart); }
+function drawChart(grid){
+  const cell=70;
+  for(let y=0;y<grid.length;y++){
+    for(let x=0;x<grid[y].length;x++){
+      push(); translate(x*cell,y*cell); drawSymbol(grid[y][x], cell/2, cell/2); pop();
+    }
+  }
+}
+function drawSymbol(type,x,y){
+  stroke(0); strokeWeight(2); noFill();
+  if(type==='ch') ellipse(x,y,34,16);
+  else if(type==='sc') { line(x-15,y-15,x+15,y+15); line(x+15,y-15,x-15,y+15); }
+  else if(type==='dc') { line(x,y+24,x,y-24); line(x-13,y-24,x+13,y-24); line(x-10,y,x+10,y-8); }
+  else if(type==='shell') { for(let i=-2;i<=2;i++){ line(x,y+24,x+i*9,y-22); } arc(x,y+22,50,22,PI,0); }
+}
+</script>
+</body>
+</html>
